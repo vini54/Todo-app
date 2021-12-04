@@ -26,7 +26,7 @@ function App() {
       <TodoList />
       <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://github.com/vini54" target="_blank">Vinícius Oliveira</a>.
+        Coded by <a href="https://github.com/vini54" target="_blank" rel="noreferrer">Vinícius Oliveira</a>.
       </div>
     </Itens.Provider>
     </Container>
