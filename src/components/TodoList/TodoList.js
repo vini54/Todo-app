@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { useState } from 'react/cjs/react.development';
+import { useState } from 'react';
 import { Itens } from '../../Context/Context';
 import { TodoItem } from '../TodoItem/TodoItem';
 import { Container } from './styles';
