@@ -36,7 +36,7 @@ export function TodoItem(props) {
       >
         <button onClick={handleClick}></button>
         <p onClick={handleClick}>{value}</p>
-        {close && <img onClick={removeItem} src={closeSvg} />}
+        {close && <img onClick={removeItem} src={closeSvg} alt="closeIcon" />}
      </Container>
   );
 }

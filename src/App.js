@@ -6,7 +6,6 @@ import { useState } from "react";
 import { TodoList } from "./components/TodoList/TodoList";
 import { ThemeProvider } from "styled-components";
 import {darkTheme, lightTheme} from "./Context/Theme";
-import GlobalStyle from './style/global';
 import GlobalStyles from "./style/global";
 
 function App() {

@@ -10,6 +10,7 @@ const generateId = () => {
 
 export function NewTodo() {
 
+   // eslint-disable-next-line
    const [itens, setItens] = useContext(Itens)
    const [complete, setComplete] = useState(false)
    const [isEdit, setIsEdit] = useState(false)
