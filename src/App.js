@@ -15,7 +15,6 @@ function App() {
   const onTheme = (value) => {
     return setTheme(value)
   }
-  // Mover Tudo para o index.js !!!!!!!!!!!!
 
   return (
     <ThemeProvider theme={theme === "dark" ? darkTheme : lightTheme}>
@@ -25,17 +24,10 @@ function App() {
       <Header onTheme={onTheme} />
       <NewTodo />
       <TodoList />
-      {/* 
-<style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-</style>
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-*/}
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/vini54" target="_blank">Vinícius Oliveira</a>.
+      </div>
     </Itens.Provider>
     </Container>
     </ThemeProvider>

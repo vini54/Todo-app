@@ -43,8 +43,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Front-end Mentor](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Solution URL: [Front-end Mentor](https://www.frontendmentor.io/solutions/responsive-todo-app-with-react-yEyF-qcAZ)
+- Live Site URL: [Netlify](https://relaxed-goodall-a239d3.netlify.app/)
 
 ## My process
 
